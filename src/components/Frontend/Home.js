@@ -1,8 +1,11 @@
+import BodyOfContent from './Body/Body';
 import './Home.css';
+import Navbar from './NavBar/Navbar';
 
 function Home() {
     return (<>
-        <h1>Hello Developer...!</h1>
+        <Navbar />
+        <BodyOfContent />
     </>
     );
 }

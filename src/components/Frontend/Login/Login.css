@@ -1,0 +1,136 @@
+.Logo {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 9%;
+    width: auto;
+}
+
+.Bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 55%;
+    width: auto;
+}
+
+.Top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 55%;
+    width: auto;
+}
+
+.Food {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40%;
+    width: auto;
+}
+
+.Chef {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: 10;
+    height: 50%;
+}
+
+.Login {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.LoginForm {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(156, 156, 156, 0.5);
+    padding: 5rem 2rem;
+    border-radius: 10px;
+}
+
+.LoginForm input {
+    outline: none;
+    padding: .8rem 3rem;
+    border: 1px solid rgba(156, 156, 156, 0.5);
+    border-radius: 10px;
+    background-color: #967a7a14;
+    text-align: center;
+}
+
+.LoginForm button {
+    padding: 10px 2rem;
+    border: 1px solid rgb(156, 156, 156, 0.5);
+    border-radius: 5px;
+    background-color: #FFD058;
+
+}
+
+@media only screen and (max-width: 1060px) {
+    .Bottom {
+        height: 300px;
+    }
+
+    .Top {
+        height: 300px;
+    }
+
+    .Food {
+        height: 200px;
+    }
+
+    .Chef {
+        height: 300px;
+    }
+
+    .LoginForm {
+        padding: 3rem 1rem;
+    }
+
+    .LoginForm input {
+        padding: .6rem 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .Bottom {
+        height: 200px;
+    }
+
+    .Top {
+        height: 200px;
+    }
+
+    .Food {
+        height: 250px;
+    }
+
+    .Chef {
+        display: none;
+    }
+
+    .LoginForm {
+        padding: 3rem 1rem;
+    }
+
+    .LoginForm input {
+        padding: .6rem 2rem;
+        
+    }
+
+    .Logo {
+        left: 30%;
+        height: 8.5%;
+    }
+}

@@ -1,9 +1,17 @@
 import './Navbar.css';
+import Logo from "../../Images/Yow.png";
 
 function Navbar() {
     return (
         <>
-            <h1 className='H1'>Navbar</h1>
+            <div className='Nav_bar'>
+                <img src={Logo} alt='Logo' />
+                <input type='text' placeholder='Search your Favorite...'></input>
+                <div className='Nav-btn'>
+                    <button>Login</button>
+                    <button>Contact</button>
+                </div>
+            </div>
         </>
     );
 }
