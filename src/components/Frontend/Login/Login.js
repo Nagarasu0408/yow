@@ -1,10 +1,10 @@
 
 import "./Login.css";
-import Logo from "../../Images/Yow.png";
-import Chef from "../../Images/chef.png";
-import BD from "../../Images/bottom.png";
-import TD from "../../Images/top.png";
-import Food from "../../Images/food.png";
+import Logo from "../../Images/Login/Yow.png";
+import Chef from "../../Images/Login/chef.png";
+import BD from "../../Images/Login/bottom.png";
+import TD from "../../Images/Login/top.png";
+import Food from "../../Images/Login/food.png";
 
 
 function Login() {

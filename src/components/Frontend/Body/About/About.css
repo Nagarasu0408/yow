@@ -1,0 +1,113 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 1000px;
+
+    span {
+        font-size: 18px;
+        color: #F7CA18;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 1rem 10px;
+    }
+
+    .F {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem 3rem;
+        align-items: center;
+        gap: 25px;
+
+        .hotelimage {
+            height: 200px;
+            width: 200px;
+            border-radius: 5px;
+        }
+    }
+
+    .OwnerProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 1rem;
+
+        img {
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+        }
+
+        p {
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+
+    .C3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 1rem;
+        gap: 0px;
+
+        .Contact {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: justify;
+            align-items: start;
+            gap: 0%;
+
+            .Heading {
+                font-size: 40px;
+                font-weight: 500;
+                padding: 2rem 0;
+            }
+
+            p {
+                padding: .5rem 0;
+            }
+        }
+
+        img {
+            height: 350px;
+            width: 350px;
+        }
+
+        .Location {
+            position: relative;
+
+            button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 1rem 155px;
+                border: none;
+                background-color: white;
+                outline: none;
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1060px) {}
